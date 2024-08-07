@@ -1,4 +1,7 @@
 <?php
+require("pagina.php");
+
+return true;
 
 header('content-type: application/json');
 echo json_encode([
